@@ -1,0 +1,28 @@
+# Секретні змінні оточення (ТУТ ТВІЙ OPENAI_API_KEY)
+.env
+
+# Python (кеш та тимчасові файли)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# База даних (локальна SQLite)
+*.sqlite3
+
+# Django-специфічне
+db.sqlite3
+/static/
+/media/
+
+# IDE та редактори
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи та системні файли
+*.log
+.DS_Store
